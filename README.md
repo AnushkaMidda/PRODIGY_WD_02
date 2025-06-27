@@ -1,4 +1,4 @@
-# PRODIGY\_WD\_02\_STOPWATCH
+# PRODIGY\_WD\_02
 
 ## 🚀 Project Overview
 
@@ -19,10 +19,9 @@ This is a responsive and interactive **Stopwatch Web Application** developed as 
 
 ---
 
-## 📁 Folder Structure
+## 📁 File details
 
 ```
-PRODIGY_WD_02_STOPWATCH/
 ├── index.html          # Main HTML file
 ├── style.css           # Custom CSS styling
 ├── script.js           # JavaScript functionality
