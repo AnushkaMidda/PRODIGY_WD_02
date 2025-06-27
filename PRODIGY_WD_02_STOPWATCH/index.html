@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stopwatch App</title>
+  <meta name="description" content="A sleek, responsive stopwatch web app to track time and laps." />
+  <meta name="author" content="Your Name" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Favicon (place favicon.ico or stopwatch.png in same folder) -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+</head>
+<body>
+
+  <!-- 🌀 Modern Loader -->
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- ⏱️ Main App Container -->
+  <main class="container" role="main" style="display: none;">
+    
+    <!-- 🌙 Theme Toggle -->
+    <button id="themeToggle" aria-label="Toggle Light/Dark Mode">🌙 Toggle Theme</button>
+
+    <!-- 🎨 Color Picker -->
+    <label for="themeColor" style="display:block; margin-top:10px; font-size:14px;">
+      🎨 Choose Theme Color:
+    </label>
+    <input type="color" id="themeColor" value="#ffb4a2" aria-label="Choose theme color" />
+    <div id="clock" class="clock" aria-label="Current system time">--:--:--</div>
+
+    <!-- 🔲 Title -->
+    <h1>Stopwatch</h1>
+
+    <!-- 🕒 Stopwatch Display -->
+    <div class="time" id="display">00:00:00.00</div>
+
+    <!-- 🎮 Control Buttons -->
+    <div class="buttons">
+      <button id="startStop" aria-label="Start or Pause Stopwatch">Start</button>
+      <button id="lap" aria-label="Record Lap Time">Lap</button>
+      <button id="reset" aria-label="Reset Stopwatch">Reset</button>
+    </div>
+
+    <!-- 📋 Laps Display -->
+    <ul id="laps" aria-label="Lap Times List"></ul>
+
+  </main>
+
+  <!-- 📜 JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
