@@ -47,6 +47,7 @@ I would like to express my heartfelt gratitude to **Prodigy Infotech** for offer
 ## 📎 Live Preview (Optional)
 
 You can host this project using GitHub Pages, Netlify, or Vercel for live demonstration.
+ https://anushkamidda.github.io/PRODIGY_WD_02/
 
 ---
 
